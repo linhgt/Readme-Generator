@@ -11,7 +11,7 @@
     "url": "git+https://github.com/linhgt/Readme-Generator.git"
   },
   "author": "Linh Nguyen",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/linhgt/Readme-Generator/issues"
   },
