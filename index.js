@@ -34,9 +34,10 @@ const prompt = () =>{
             message:"How to do testing?"
         },
         {
-            type:"input",
+            type:"list",
             name:"license",
-            message:"What is the license used in this project?"
+            message:"What is the license used in this project?",
+            choices:["MIT", "ISC", "Apache 2.0", "GPL 3.0", "BSD 3", "None"]
         },
         {
             type:"input",
@@ -53,7 +54,9 @@ const prompt = () =>{
             name:"email",
             message:"Enter your email address"
         }
-    ]);
+    ]).then((answers) => {
+        console.log(answers);
+    });
 };
 
 prompt();
