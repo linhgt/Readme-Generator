@@ -57,7 +57,9 @@ const prompt = () =>{
     ]).then((answers) => {
         console.log(answers);
 
-        fs.writeFile("README.md", answers, (err) => {
+        const testing = `# ${answers.title}`;
+
+        fs.writeFile("README.md", testing, (err) => {
             if (err) console.log(err);
         });
     });
