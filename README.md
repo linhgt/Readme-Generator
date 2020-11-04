@@ -1,9 +1,9 @@
-# test
+# Readme Generator
 ![Github license](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Description
 
-test
+An app that generates a professional README for a project
 
 ## Table of Contents
 
@@ -21,19 +21,19 @@ test
 
 ## Installation
 
-test
+
 
 ## Usage
 
-stse
+Run the app with nodejs and answer the prompts
 
 ## Contributing
 
-tes
+to be decided
 
 ## Tests
 
-test
+to be decided
 
 ## License
 
@@ -42,5 +42,5 @@ MIT
 ## Questions
 
 Have any questions? Contact me at:
-https://github/linhgt
-linhnhatmen@gmail.com
+Github: https://github/linhgt
+Email: linhnhatmen@gmail.com
