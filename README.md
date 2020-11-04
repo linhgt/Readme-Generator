@@ -1,9 +1,9 @@
 # Readme Generator
-![Github license](https://img.shields.io/badge/License-MIT-blue.svg)
+![Github license](https://img.shields.io/badge/License-Apache 2.0-blue.svg)
 
 ## Description
 
-A small app that generates professional readme for project
+A small app that generates a professional readme
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ A small app that generates professional readme for project
 
 ## Installation
 
-TBD
+TBd
 
 ## Usage
 
@@ -37,7 +37,7 @@ TBD
 
 ## License
 
-MIT
+Apache 2.0
 
 ## Questions
 
