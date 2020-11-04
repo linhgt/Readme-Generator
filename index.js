@@ -57,9 +57,11 @@ const prompt = () =>{
     ]).then((answers) => {
         console.log(answers);
 
-        const testing = `# ${answers.title}`;
+        const finalDraft = `# ${answers.title}
+            ![Github license](https://img.shields.io/badge/License-${answers.license}-blue.svg)
+        `;
 
-        fs.writeFile("README.md", testing, (err) => {
+        fs.writeFile("README.md", finalDraft, (err) => {
             if (err) console.log(err);
         });
     });
