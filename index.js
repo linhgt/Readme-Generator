@@ -103,8 +103,8 @@ const prompt = () =>{
         ## Questions
 
         Have any questions? Contact me at:
-        https://github/${answers.username}
-        ${answers.email}
+        Github: https://github/${answers.username}
+        Email: ${answers.email}
         `;
 
         fs.writeFile("README.md", finalDraft, (err) => {
