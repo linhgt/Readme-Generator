@@ -102,8 +102,8 @@ const prompt = () =>{
 
         ## Questions
 
-        Have any questions? Contact me at:
-        Github: https://github/${answers.username}
+        Have any questions? Contact me at:\
+        Github: https://github/${answers.username}\
         Email: ${answers.email}
         `;
 

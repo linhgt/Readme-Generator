@@ -1,9 +1,9 @@
 # Readme Generator
-![Github license](https://img.shields.io/badge/License-MIT-blue.svg)
+![Github license](https://img.shields.io/badge/License-ISC-blue.svg)
 
 ## Description
 
-An app that generates a professional README for a project
+A small app that generates a professional readme for a project
 
 ## Table of Contents
 
@@ -21,11 +21,11 @@ An app that generates a professional README for a project
 
 ## Installation
 
-
+to be decided
 
 ## Usage
 
-Run the app with nodejs and answer the prompts
+Run app with nodejs
 
 ## Contributing
 
@@ -37,10 +37,8 @@ to be decided
 
 ## License
 
-MIT
+ISC
 
 ## Questions
 
-Have any questions? Contact me at:
-Github: https://github/linhgt
-Email: linhnhatmen@gmail.com
+Have any questions? Contact me at:        Github: https://github/linhgt        Email: linhnhatmen@gmail.com
