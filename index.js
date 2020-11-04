@@ -1,7 +1,9 @@
 var fs = require('fs');
 var inquirer = require('inquirer');
+var outdent = require('outdent');       //remove indentation from ES6 template literals
 
 const prompt = () =>{
+    //Prompt the user
     inquirer.prompt([
         {
             type:"input",
@@ -55,10 +57,20 @@ const prompt = () =>{
             message:"Enter your email address"
         }
     ]).then((answers) => {
-        console.log(answers);
+        //store the texts in a template string then write it to README.md
+        const finalDraft = outdent`
+        # ${answers.title}
+        ![Github license](https://img.shields.io/badge/License-${answers.license}-blue.svg)
 
-        const finalDraft = `# ${answers.title}
-            ![Github license](https://img.shields.io/badge/License-${answers.license}-blue.svg)
+        ## Description
+
+        ${answers.description}
+
+        ## Table of Contents
+
+        * [Installation](#installation)
+
+        ## Installation
         `;
 
         fs.writeFile("README.md", finalDraft, (err) => {
