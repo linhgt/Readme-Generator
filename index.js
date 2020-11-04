@@ -58,7 +58,7 @@ const prompt = () =>{
         }
     ]).then((answers) => {
         //store the texts in a template string then write it to README.md
-        const finalDraft = outdent`
+        const finalDraft = outdent({trimTrailingNewLine: false})`
         # ${answers.title}
         ![Github license](https://img.shields.io/badge/License-${answers.license}-blue.svg)
 
