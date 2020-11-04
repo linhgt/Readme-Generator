@@ -69,8 +69,42 @@ const prompt = () =>{
         ## Table of Contents
 
         * [Installation](#installation)
+    
+        * [Usage](#usage)
+
+        * [License](#license)
+
+        * [Contributing](#contributing)
+
+        * [Tests](#tests)
+
+        * [Questions](#questions)
 
         ## Installation
+
+        ${answers.installation}
+
+        ## Usage
+
+        ${answers.usage}
+
+        ## Contributing
+
+        ${answers.contribution}
+
+        ## Tests
+
+        ${answers.test}
+
+        ## License
+
+        ${answers.license}
+
+        ## Questions
+
+        Have any questions? Contact me at:
+        https://github/${answers.username}
+        ${answers.email}
         `;
 
         fs.writeFile("README.md", finalDraft, (err) => {
