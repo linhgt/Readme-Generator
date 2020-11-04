@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/linhgt/Readme-Generator#readme",
   "dependencies": {
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "outdent": "^0.7.1"
   }
 }
